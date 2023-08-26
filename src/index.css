@@ -18,20 +18,27 @@ html {
   --light-gray: #d8d8d8;
   --white: #ffffff;
   --black: #000000;
+  --transition: 0.5s ease-in-out;
+  --shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
   width: 100%;
-  padding: 5rem 200px;
+  padding: 5rem 150px;
 }
 
 .btn {
-  width: 200px;
+  width: 150px;
   padding: 20px;
   cursor: pointer;
   border: 0 solid white;
   border-radius: 50px;
   background: transparent;
+  font-size: 14px;
 }
 
 .primary-btn {
@@ -49,6 +56,19 @@ html {
   color: var(--white);
 }
 
+.textfield {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  outline: 0;
+  border-bottom: 1px solid var(--text-color);
+  color: var(--text-color);
+  padding: 10px 0;
+}
+
+::placeholder {
+  color: var(--text-color);
+}
 
 
 

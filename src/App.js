@@ -5,6 +5,7 @@ import Contacts from "./routes/contact/Contacts"
 import About from "./routes/about/About"
 import Artists from "./routes/artists/Artists"
 import Events from "./routes/events/Events"
+import Releases from "./routes/releases/Releases";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/artists" element={<Artists />} />
       <Route path="/events" element={<Events />} />
+      <Route path="/releases" element={<Releases />} />
     </Routes>
   );
 }
