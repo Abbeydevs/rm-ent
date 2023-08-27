@@ -6,7 +6,7 @@
 
 body,
 html {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: var(--bg-color);
   color: var(--white);
 }
@@ -24,6 +24,10 @@ html {
 
 a {
   text-decoration: none;
+}
+
+p {
+  margin: 0;
 }
 
 .container {
@@ -70,25 +74,21 @@ a {
   color: var(--text-color);
 }
 
-
-
-
 /* MEDIA QUERY */
 @media screen and (max-width: 1440px) {
   .container {
-      padding: 7rem 100px;
+    padding: 7rem 100px;
   }
 }
 
 @media screen and (max-width: 700px) {
   .container {
-      padding: 10rem 50px;
+    padding: 10rem 50px;
   }
 }
 
-
 @media screen and (max-width: 420px) {
   .container {
-      padding: 8rem 20px;
+    padding: 8rem 20px;
   }
 }

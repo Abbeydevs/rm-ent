@@ -1,0 +1,19 @@
+.footer__container {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .footer__image {
+    width: 200px;
+    margin-bottom: 50px;
+  }
+  
+  .copyright__text {
+    color: #636363;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 120px;
+  }

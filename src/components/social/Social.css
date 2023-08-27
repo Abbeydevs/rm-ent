@@ -1,0 +1,22 @@
+.s-container {
+  text-align: center;
+  background-image: url(../../images/sm-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.social-icons {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 500px) {
+  .social-icons {
+    gap: 3rem;
+  }
+}

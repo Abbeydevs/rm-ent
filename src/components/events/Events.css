@@ -1,0 +1,37 @@
+.event-container {
+  background-color: white;
+}
+
+.event-wrapper {
+  background-image: url(../../images/event-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 8rem 100px;
+  border-radius: 10px;
+}
+
+.event-wrapper h1 {
+  font-size: 38px;
+  margin-bottom: 8px;
+  color: var(--light-gray);
+}
+
+.event-wrapper button {
+  margin-top: 50px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 750px) {
+  .event-container {
+    padding: 5rem 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .event-container {
+    padding: 5rem 20px;
+  }
+}
